@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="potato_list">
+        <item>Russet Potato</item>
+        <item>Red Potato</item>
+        <item>White Potato</item>
+        <item>Yellow Potato</item>
+    </string-array>
+</resources>

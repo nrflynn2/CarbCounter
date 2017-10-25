@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter a Food to Search For"
+        android:ems="10"
+        android:id="@+id/ndb_search"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="Search Carb Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ndb_search_button" />
+
+    <Button
+        android:text="Search Volume Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ndb_search2" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ndb_search_results"
+        android:textSize="24sp"
+        android:scrollbars="vertical"
+        android:layout_weight="0.96" />
+
+    <Button
+        android:text="Return to Main Screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ndb_return_button" />
+</LinearLayout>

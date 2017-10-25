@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tutorial1</string>
+    <string name="user_message">Hello SIGMobile!</string>
+    <string name="button">Button</string>
+</resources>
